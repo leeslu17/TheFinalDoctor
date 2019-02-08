@@ -1,0 +1,190 @@
+﻿.mainBack {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    background-color: #2d2d2d;
+}
+.titleDiv {
+    width: 98%;
+    height: 5%;
+    position: absolute;
+    left: 1%;
+    top: 9%;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+}
+.weatherDiv {
+    width: 67%;
+    height: 98%;
+    color: white;   
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    border-left:2px solid red;
+}
+/********************************************************************/
+/*************************WELCOME/CLOCK DIV**************************/
+/********************************************************************/
+.welcomeDiv {
+    width: 98%;
+    height: 8%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    background-color: #444444;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    border: 1px solid #939393;
+}
+.clockDiv {
+    width: 11%;
+    height: 98%;
+    position: absolute;
+    left: 0;
+    top: 1%;
+    border-right: 1px solid white;
+}
+.welcomeMsg {
+    width: 22%;
+    height: 98%;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    left: 11%;
+    top: 1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+    border-right: 1px solid white;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+/********************************************************************/
+/***********************CUSTOMER INFO OVERVIEW***********************/
+/********************************************************************/
+.customerInfoDiv {
+    width: 49%;
+    height: 30%;
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    background-color: #444444;
+    overflow-y: scroll;
+    border: 1px solid #939393;
+}
+.customerInfoTable {
+    width: 100%;
+    position:absolute;
+    left:0;
+    top:16%;
+    color: white;
+    font-size: 16px;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+/********************************************************************/
+/***********************CALENDAR INFO OVERVIEW***********************/
+/********************************************************************/
+.calendarDiv {
+    width: 48%;
+    height: 40%;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    background-color: #444444;
+    overflow-y: hidden;
+    border: 1px solid #939393;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+td {
+    border: 1px solid #939393;
+    padding:0;
+}
+.infoHeader {
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    font-family: 'Modern No. 20';
+    border-bottom: 1px solid #939393;
+}
+.contactDiv {
+    width: 25%;
+    height: 50%;
+    position: absolute;
+    top: 46%;
+    left: 1%;
+    background-color: #444444;
+    overflow-y: scroll;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    font-family: 'Modern No. 20';
+    border: 1px solid #939393;
+}
+.roundBorders{
+    border-radius:5px;
+}
+/********************************************************************/
+/*********************PRESCRIPTION INFO OVERVIEW*********************/
+/********************************************************************/
+.presInfoDiv {
+    width: 48%;
+    height: 30%;
+    position: absolute;
+    top: 56%;
+    right: 1%;
+    background-color: #444444;
+    overflow-y: scroll;
+    border: 1px solid #939393;
+}
+
+.presInfoTable {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 16%;
+    color: white;
+    font-size: 16px;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+.callDiv {
+    width: 23%;
+    height: 50%;
+    position: absolute;
+    top: 46%;
+    left: 27%;
+    background-color: #444444;
+    border: 1px solid #939393;
+}
+/*background-color: #4c4c4c;
+    #818181 (Lighter)
+*/
